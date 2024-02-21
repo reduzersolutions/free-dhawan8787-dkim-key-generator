@@ -1,0 +1,8 @@
+certifi==2024.2.2
+charset-normalizer==3.3.2
+idna==3.6
+luxsci @ file:///home/lennox/work/freelancer/dhawan8787/dkim-automation/luxsci-2024.1.2-py3-none-any.whl#sha256=d327b87fb30e71517c04dcf9a84d691f81a6eb274bd22c7b0228d2516e02d9ed
+python-dateutil==2.8.2
+requests==2.31.0
+six==1.16.0
+urllib3==2.2.1
