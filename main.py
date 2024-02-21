@@ -118,6 +118,8 @@ class LuxSciAPI:
             if dkim_create_response['code'] == 200:
                 path = f"/perl/api/v2/account/{self.accountID}/dkim/{domain}"
                 return self.api_request(method="GET", path=path)
+            else:
+                raise Exception(dkim_create_response)
 
         except Exception as e:
             raise Exception(e)
